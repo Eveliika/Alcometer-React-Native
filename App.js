@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { StyleSheet, View, Button, SafeAreaView, Pressable, ScrollView } from 'react-native';
 import NumericInput from 'react-native-numeric-input';
@@ -118,7 +117,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 90,  //pois jos scrollview pois???
+    paddingTop: 90,
     paddingBottom: 50,
     flex: 1,
     backgroundColor: '#f8f2ff',
@@ -164,10 +163,10 @@ const styles = StyleSheet.create({
 
 const darkStyles = StyleSheet.create({
   container: {
-    paddingTop: 90,  //pois jos scrollview pois???
+    paddingTop: 90,
     paddingBottom: 50,
     flex: 1,
-    backgroundColor: '#000000',
+    backgroundColor: '#341b50',
     alignItems: 'center',
     justifyContent: 'center',
   },
